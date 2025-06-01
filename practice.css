@@ -1,0 +1,28 @@
+/* CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.Btn{
+border-radius: 5px;
+font-size: 1rem;
+background-color: #eee;;
+cursor: pointer;
+padding: 0.5 rem .75 rem;
+color:#333;
+transition:background-color 0.2s ease;
+}
+
+.Btn:hover{
+    background-color: #ddd;
+}
